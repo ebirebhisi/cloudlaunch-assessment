@@ -1,0 +1,42 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ListBuckets",
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": [
+        "arn:aws:s3:::cloudlaunch-site-bucket",
+        "arn:aws:s3:::cloudlaunch-private-bucket",
+        "arn:aws:s3:::cloudlaunch-visible-only-bucket"
+      ]
+    },
+    {
+      "Sid": "SiteBucketReadOnly",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::cloudlaunch-site-bucket/*"
+    },
+    {
+      "Sid": "PrivateBucketReadWrite",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": "arn:aws:s3:::cloudlaunch-private-bucket/*"
+    },
+    {
+      "Sid": "VPCReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeVpcs",
+        "ec2:DescribeSubnets",
+        "ec2:DescribeRouteTables",
+        "ec2:DescribeInternetGateways",
+        "ec2:DescribeSecurityGroups"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

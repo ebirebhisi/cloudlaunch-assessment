@@ -35,13 +35,12 @@ No access to contents of visible-only bucket.
 🔹 User Credentials
 
 For instructor verification:
+### 🔹 User Credentials  
 
-IAM User: cloudlaunch-user
+For instructor verification, credentials are stored securely here:  
+👉 [Access IAM User Credentials](https://drive.google.com/your-link-here)  
 
-Password: Ebirebhisi-moren
 
-Console URL -https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#
-Account ID-676206914615
 
 ⚠️ Password change is enforced on first login.
 

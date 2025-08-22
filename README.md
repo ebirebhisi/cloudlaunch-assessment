@@ -50,8 +50,8 @@ Account ID-676206914615
 S3 Website Endpoint: http://cloudlaunch-site-bucket-moren.s3-website-us-east-1.amazonaws.com
 
 📸 Screenshots evidence:  
-All proof screenshots are included in [screenshots.zip](./screenshots.zip).  
-(Download and unzip to view.)
+All proof screenshots are included in screenshot uploaded.  
+
 
 S3 buckets list
 
